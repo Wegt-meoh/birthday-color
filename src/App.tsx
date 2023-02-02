@@ -6,7 +6,7 @@ import { data } from "./data";
 function App() {
   return (
     <div className="App">
-      {data.map((item) => {
+      {data.map((item, index) => {
         const {
           bgColor,
           textColor,
@@ -16,14 +16,16 @@ function App() {
           colorName: title2,
         } = item;
         return (
-          <ColorBoard
-            bgColor={bgColor}
-            textColor={textColor}
-            dateText={title1}
-            colorName={title2}
-            text1={text1}
-            text2={text2}
-          />
+          <div key={index}>
+            <ColorBoard
+              bgColor={bgColor}
+              textColor={textColor}
+              dateText={title1}
+              colorName={title2}
+              text1={text1}
+              text2={text2}
+            />
+          </div>
         );
       })}
     </div>

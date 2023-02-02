@@ -1,0 +1,40 @@
+@keyframes fadeIn {
+    0%{
+        opacity: 0;           
+    }
+
+    100%{
+        opacity: 1;        
+    }
+}
+
+@keyframes moveIn {
+    0%{
+        transform: translateX(20px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes moveInText {
+    0%{
+        transform: translateX(160px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+
+
+@keyframes fadeOut{
+    0%{
+        opacity: 1;           
+    }
+
+    100%{
+        opacity: 0;        
+    }
+}
+    

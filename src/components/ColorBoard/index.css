@@ -1,4 +1,6 @@
 .colorBoard{
+    overflow: hidden;
+    animation: 0.8s ease 0s 1 none running fadeIn;    
     padding-top: 120px;
     letter-spacing: 1px;
     width: 160px;
@@ -14,6 +16,7 @@
 }
 
 .colorBoard>div{
+    animation: 1.4s ease 0s 1 none running moveInText;
     width: 90%;    
 }
 

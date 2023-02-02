@@ -1,0 +1,14 @@
+.UlHeader{
+    display: flex;
+    gap: 10px;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+    font-size: 14px;
+    margin: 0;
+}
+
+.UlHeader>div{
+    width: 8px;
+    height: 8px;    
+}

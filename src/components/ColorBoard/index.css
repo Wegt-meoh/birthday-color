@@ -1,0 +1,46 @@
+.colorBoard{
+    padding-top: 120px;
+    letter-spacing: 1px;
+    width: 160px;
+    height: 560px;
+    display: flex;
+    font-size: 12px;
+    flex-flow:column nowrap;    
+    align-items: center;
+    font-weight: normal;
+    font-family: 'Courier New', Courier, monospace; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
+    box-shadow: inset 2px 0 10px 0px rgba(0, 0, 0, 0.076);    
+}
+
+.colorBoard>div{
+    width: 90%;    
+}
+
+.colorBoard h1{
+    font-size: 48px;
+    font-weight: bold;     
+    margin: 0;
+}
+
+.colorBoard p{
+    margin: 0;        
+}
+
+.colorBoard ul{        
+    margin: 0;
+    padding: 0;
+    padding-left: 14px;
+}
+
+.colorBoard ul>li{
+    margin-bottom: 2px;
+}
+
+.colorBoard .top{
+    margin-bottom: 60px;   
+}
+
+.colorBoard .mid{
+    margin-bottom: 40px;   
+}

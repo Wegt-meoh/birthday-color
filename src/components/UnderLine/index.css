@@ -1,0 +1,17 @@
+.underline{
+    display: flex;
+    flex-flow: row nowrap;        
+    height: 2px;
+    gap: 4px;
+    margin: 4px 0;
+}
+
+.underline>.line{
+    width: 85%;
+    height: 2px;
+}
+
+.underline>.point{
+    width: 2px;
+    height: 2px;
+}

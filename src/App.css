@@ -1,5 +1,4 @@
 .App{
     display: flex;
-    flex-flow: row wrap;
-    background-color: black;
+    flex-flow: row wrap;    
 }
